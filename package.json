@@ -1,7 +1,7 @@
 {
-  "name": "express-auth-mongoose-boilerplate",
+  "name": "cars-api",
   "version": "1.0.0",
-  "description": "Auth boilerplate for mongoose express using token auth",
+  "description": "A fun little API server having to do with Cars",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
