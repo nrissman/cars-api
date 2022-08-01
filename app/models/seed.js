@@ -13,7 +13,7 @@ const startCars = [
     { name: 'Lynn', make: 'Toyota', model: 'Supra Turbo', year: 1998 },
     { name: 'Tina', make: 'Porsche', model: '996', year: 1999 },
     { name: 'Shannon', make: 'Plymouth', model: 'Hemi Cuda', year: 1971 },
-    { name: 'Anne', make: 'Ford', model: 'F-350', year: 1990 }
+    { name: 'Anne', make: 'Ford', model: 'F-350 7.3L Turbo', year: 1990 }
 ]
 
 // first we need to connect to the database
