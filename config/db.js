@@ -7,7 +7,7 @@ const mongooseBaseName = 'cars-api'
 // create the mongodb uri for development and test
 const database = {
 	development: `mongodb://127.0.0.1/${mongooseBaseName}-development`,
-	test: `mongodb://127.0.0.1/${mongooseBaseName}-development`,
+	test: `mongodb://127.0.0.1/${mongooseBaseName}-test`,
 }
 
 // Identify if development environment is test or development
@@ -17,5 +17,7 @@ const localDb = process.env.TESTENV ? database.test : database.development
 // Environment variable MONGODB_URI will be available in
 // heroku production evironment otherwise use test or development db
 const currentDb = process.env.MONGODB_URI || localDb
+
+//mongodb+srv://chloegirl:chloegirl@cluster0.tmpo6fj.mongodb.net/cars-api?retryWrites=true&w=majority
 
 module.exports = currentDb
